@@ -14,8 +14,8 @@ import sh.platform.config.Elasticsearch;
 
 @Configuration
 public class ElasticsearchConfig{
-    static final String INDEX = "musics";
-    static final String TYPE = "music";
+     static final String INDEX = "musics";
+     static final String TYPE = "music";
 
     @Bean
     public RestHighLevelClient elasticsearchTemplate() throws IOException{
